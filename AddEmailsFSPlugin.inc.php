@@ -6,10 +6,13 @@
  * Copyright (c) 2003-2011 John Willinsky
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
+ * A contribution from:
+ *    - 2014 Instituto Nacional de Investigacion y Tecnologia Agraria y Alimentaria
+ *
  * @class AddEmailsFS
  * @ingroup plugins_block_webFeed
  *
- * @brief Web Feeds plugin class
+ * @brief This plugin add bcc and cc to email assign to editor
  */
 
 // $Id$
