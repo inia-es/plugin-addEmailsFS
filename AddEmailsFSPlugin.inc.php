@@ -4,6 +4,8 @@
  * @file AddEmailsFS.inc.php
  *
  * Copyright (c) 2003-2011 John Willinsky
+ * Copyright (c) 2014 Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria
+ *
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * A contribution from:
@@ -67,10 +69,8 @@ class AddEmailsFSPlugin extends GenericPlugin {
 
 		$email=& $args[3];
 		$email->addBcc('alia@inia.com','Ricardo Alia');
+		$email->addBcc('forestsystems@inia.com', 'Forest Systems');
 		return $args[3] = $email;
-		
-	
-   
 	 }	
 
 }
