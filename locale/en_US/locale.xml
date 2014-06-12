@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2003-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * With contributions from:
+  * 	- 2014 Instituto Nacional de Investigacion y Tecnologia Agraria y Alimentaria
+  *
+  * editors Emails plugin localization strings for the en_US (U.S. English) locale.
+  *
+  * $Id$
+  -->
+ 
+<locale name="en_US" full_name="U.S. English">
+
+	<!-- editors Emails -->
+	<message key="plugins.generic.AddEmailsFS.displayName">AddEmailsFS Plugin</message>
+	<message key="plugins.generic.AddEmailsFS.description">This plugin add bcc and cc to email assign to editor.</message>
+
+	
+</locale>

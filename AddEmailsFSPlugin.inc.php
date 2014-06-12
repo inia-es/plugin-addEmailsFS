@@ -35,7 +35,7 @@ class AddEmailsFSPlugin extends GenericPlugin {
 	 * @return string
 	 */
 	function getDisplayName() {
-		return 'AddEmailsFS Plugin';
+		return Locale::translate('plugins.generic.AddEmailsFS.displayName');
 	}
 
 	/**
@@ -43,7 +43,7 @@ class AddEmailsFSPlugin extends GenericPlugin {
 	 * @return string
 	 */
 	function getDescription() {
-		return 'This plugin add bcc and cc to email assign to editor ';
+		return Locale::translate('plugins.generic.AddEmailsFS.description');
 	}
 
 	function register($category, $path) {
