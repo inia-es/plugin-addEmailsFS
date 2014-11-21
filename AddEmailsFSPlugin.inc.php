@@ -68,8 +68,7 @@ class AddEmailsFSPlugin extends GenericPlugin {
 	function callback($hookName, $args) {
 
 		$email=& $args[3];
-		$email->addBcc('alia@inia.com','Ricardo Alia');
-		$email->addBcc('forestsystems@inia.com', 'Forest Systems');
+		$email->addBcc('forestsystems@inia.es', 'Forest Systems');
 		return $args[3] = $email;
 	 }	
 
